@@ -1,1 +1,28 @@
-li 
+header img#logo  {
+    background-color:antiquewhite; /*Para identificar secciones*/
+    max-width: 20%;
+    object-fit: contain;
+}
+nav {
+    background-color:#ffe600; /*Para identificar secciones*/
+}
+
+main {
+    background-color:lightblue; /*Para identificar secciones*/
+}
+
+article {
+    background-color:red; /*Para identificar secciones*/
+    padding: 1em;
+}
+
+article header {
+    background-color:purple; /*Para identificar secciones*/
+    padding: 0.1em;
+
+}
+
+article section {
+    background-color:green; /*Para identificar secciones*/
+    padding: 0.1em;
+}
