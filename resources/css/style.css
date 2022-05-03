@@ -1,10 +1,23 @@
+header #top{
+    position:fixed;
+    z-index:1;
+    width: 100%;
+}
+
 header img#logo  {
     background-color:antiquewhite; /*Para identificar secciones*/
     max-width: 20%;
     object-fit: contain;
+
+
 }
 nav {
     background-color:#ffe600; /*Para identificar secciones*/
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 5px;
 }
 
 main {
