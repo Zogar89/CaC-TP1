@@ -6,7 +6,6 @@ body{
 header#top{
     position:fixed;
     z-index:9999;
-    width: 100%;
     background-color: aqua;
     top:0;
     width: 100%;
@@ -18,20 +17,27 @@ header img#logo  {
     background-color:antiquewhite; /*Para identificar secciones*/
     max-width: 20%;
     object-fit: contain;
+    display: inline-block;
+    margin: 5px;
+    float: left;
 
 
 }
 nav {
     background-color:#ffe600; /*Para identificar secciones*/
+    display: inline;
+    max-width: auto;
+    margin: 5px;
+    float: right;
 }
 
 nav ul li{
-    display: block;
+    display: inline;
     margin: 5px;
+    padding: 2px;
     font-weight: bold ;
     text-align: center;
-    padding: 1px;
-    margin: 1px;
+
     background-color: rgb(8, 183, 81);
 }
 
