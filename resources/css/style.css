@@ -1,7 +1,17 @@
-header #top{
+
+body{
+    font-family: 'Roboto', sans-serif ;
+}
+
+header#top{
     position:fixed;
-    z-index:1;
+    z-index:9999;
     width: 100%;
+    background-color: aqua;
+    top:0;
+    width: 100%;
+    overflow: hidden;
+    
 }
 
 header img#logo  {
@@ -16,12 +26,23 @@ nav {
 }
 
 nav ul li{
-    display: inline-block;
+    display: block;
     margin: 5px;
+    font-weight: bold ;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    background-color: rgb(8, 183, 81);
 }
+
+nav a:hover {
+    background: #ddd;
+    color: black;
+  }
 
 main {
     background-color:lightblue; /*Para identificar secciones*/
+    margin-top: 100px;
 }
 
 article {
