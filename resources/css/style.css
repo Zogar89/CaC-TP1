@@ -10,9 +10,9 @@ body{
 header#top{
     position:fixed;
     z-index:9999;
-    #background: url(.\resources\images\hedback.bmp);
-    #background-repeat: no-repeat;
-    #background-position: center;
+    /*background: url(.\resources\images\hedback.bmp);
+    background-repeat: no-repeat;
+    background-position: center;*/
     top:0;
     width: 100%;
     overflow: hidden;
@@ -49,7 +49,7 @@ nav ul li{
 nav a:hover {
     background: #ddd;
     color: black;
-  }
+}
 
 main {
     background-color:lightblue; /*Para identificar secciones*/
