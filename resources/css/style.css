@@ -40,7 +40,9 @@ nav ul li a {
     font-weight: bold ;
     margin: 2vw;
     color: black;
+    transition: 0.3s;
 }
+
 @media (min-width: 500px) {nav ul li a {
     font-size: 20px;
     transition: 1s;
@@ -56,18 +58,16 @@ nav ul li a:hover {
 }
 
 main {
-    background-color:lightblue; /*Para identificar secciones*/
     margin-top: 50px;
 }
 
 article {
-    background-color:red; /*Para identificar secciones*/
     padding: 1em;
     width: 100%;
 }
 
 article#catalogo {
-    background-color: aqua;
+
 }
 
 #catalogo section{
@@ -76,11 +76,10 @@ article#catalogo {
     padding: 10px;
 }
 article header {
-    background-color:purple; /*Para identificar secciones*/
     padding: 1em;
     font-size: x-large;
     font-weight: bold;
-
+    text-decoration: underline;
 }
 
 article section {
