@@ -10,40 +10,35 @@ body{
 header#top{
     position:fixed;
     z-index:9999;
-    /*background: url(.\resources\images\hedback.bmp);
-    background-repeat: no-repeat;
-    background-position: center;*/
+    background-color: white;
     top:0;
     width: 100%;
     overflow: hidden;
     height: 50px;
+    display: flex;
     
 }
 
 header img#logo  {
     background-color:antiquewhite; /*Para identificar secciones*/
-    height: 30px;
     object-fit: contain;
     display: inline;
     margin: 5px;
     float: left;
-
-
 }
 nav {
     background-color:#ffe600; /*Para identificar secciones*/
-    display: inline;
-    margin: auto 0;
-    float: right;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
 }
 
 nav ul li{
-    display: inline;
-    margin: 5px;
-    padding: 2px;
     font-weight: bold ;
-    text-align: center;
     background-color: rgb(8, 183, 81);
+    align-items: center;
+    display: inline-flex;
+
 }
 
 nav a:hover {
