@@ -1,11 +1,13 @@
 
 * {
     scroll-behavior: smooth;
+    scroll-margin-top: 60px;
 }
 
 body{
     font-family: 'Roboto', sans-serif ;
-    scroll-behavior: smooth;
+
+
 }
 
 header#top{
@@ -27,7 +29,7 @@ header img#logo  {
     filter: invert(41%) sepia(76%) saturate(530%) hue-rotate(324deg) brightness(98%) contrast(86%);
 }
 
-@media (max-width: 375px) {header img#logo {
+@media (max-width: 450px) {header img#logo {
     display: none;
 }}
 
@@ -52,12 +54,18 @@ nav ul li a {
     transition: 0.3s;
     display: inline-flex;
     padding: 5px 10px;
-    margin: 0 1vw; 
+    margin: 0 1vw;
+    white-space: nowrap;
 }
 
-@media (min-width: 530px) {nav ul li a {
+@media (min-width: 640px) {nav ul li a {
     font-size: 20px;
     transition: 1s;
+}
+}
+
+@media (max-width: 320px) {nav ul li a {
+    flex-direction: column;
 }
 }
 
