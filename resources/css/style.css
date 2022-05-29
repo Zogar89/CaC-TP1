@@ -43,7 +43,6 @@ header img#logo:hover {
 
 nav ul{
     display: inline-flex;
-    margin: 0 5px;
 }
 
 nav ul li a {
@@ -53,9 +52,10 @@ nav ul li a {
     transition: 0.3s;
     display: inline-flex;
     padding: 5px 10px;
+    margin: 0 1vw; 
 }
 
-@media (min-width: 500px) {nav ul li a {
+@media (min-width: 530px) {nav ul li a {
     font-size: 20px;
     transition: 1s;
 }
