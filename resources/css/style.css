@@ -6,13 +6,12 @@
 body{
     font-family: 'Roboto', sans-serif ;
     scroll-behavior: smooth;
-    min-width: 350px;
 }
 
 header#top{
     position:fixed;
     z-index:9999;
-    background-color: white;
+    background-color: #dddce4;
     top:0;
     width: 100%;
     overflow: hidden;
@@ -25,8 +24,10 @@ header img#logo  {
     display: inline-flex;
     margin: 5px;
     float: left;
+    filter: invert(41%) sepia(76%) saturate(530%) hue-rotate(324deg) brightness(98%) contrast(86%);
 }
-nav {
+
+    nav {
     margin-left: auto;
     align-items: center;
     display: inline-flex;
@@ -40,7 +41,7 @@ nav ul li a {
     font-size: 12px;
     font-weight: bold ;
     margin: 2vw;
-    color: black;
+    color: #d96045;
     transition: 0.3s;
 }
 
@@ -52,7 +53,7 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: none;
-    color: black;
+    color: #025dac;
     transition: 0.3s;
     border-bottom: 3px solid  black;
     margin-bottom: -3px;
@@ -63,24 +64,34 @@ main {
 }
 
 article {
-    padding: 1em;
+    padding: 5px;
     width: 100%;
 }
 
-article#catalogo {
+#catalogo {
+    background-color: #ffffff;
+}
 
+#listadeprecios {
+    background-color: ghostwhite;
+}
+
+#contacto {
+    background-color: #d96045;
 }
 
 #catalogo section{
-
     display: flex;
     padding: 10px;
 }
+
 article header {
-    padding: 1em;
+    padding: 10px;
+    margin: 0 -5px 0 -5px;	
     font-size: x-large;
     font-weight: bold;
-    text-decoration: underline;
+    color: #fff;
+    background-color: #02142B;
 }
 
 article section {
@@ -91,18 +102,28 @@ article section {
 }
 
 .card {
-    background-color: gainsboro;
+    background-color: #02142B;
     max-width: 300px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 5px;
     margin: 5px 2px;
-}
+    border-radius: 1%;
+} 
 
 .card .content {
     padding: 5px;
-    font-size: medium;
+    font-size: smaller;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+                            .card .content {
+                                font-size: x-small;
+                                transition: 1s;
+                            }
 }
 
 .image {
