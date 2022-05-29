@@ -11,7 +11,7 @@ body{
 header#top{
     position:fixed;
     z-index:9999;
-    background-color: #dddce4;
+    background-color: #f4f2f4;
     top:0;
     width: 100%;
     overflow: hidden;
