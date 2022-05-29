@@ -16,7 +16,7 @@ header#top{
     background-color: #f4f2f4;
     top:0;
     width: 100%;
-    overflow: hidden;
+    min-width: 260px;
     height: 50px;
     display: flex;
 }
@@ -66,8 +66,11 @@ nav ul li a {
 
 @media (max-width: 320px) {nav ul li a {
     flex-direction: column;
+    white-space: wrap;
 }
 }
+
+
 
 nav ul li a:hover {
     text-decoration: none;
@@ -199,4 +202,13 @@ form label{
     align-items: center;
     margin: 10px;
     font-weight: bold;
+}
+
+@media (max-height: 400px) {
+    header#top{height: 30px;}
+    main {margin-top: 30px;}
+    .card {max-width: 250px;}
+    article header {font-size: small;}
+    .card .content{font-size: 10px;}
+    *{transition: 1s}
 }
