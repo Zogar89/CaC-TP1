@@ -27,6 +27,10 @@ header img#logo  {
     filter: invert(41%) sepia(76%) saturate(530%) hue-rotate(324deg) brightness(98%) contrast(86%);
 }
 
+@media (max-width: 375px) {header img#logo {
+    display: none;
+}}
+
 header img#logo:hover {
     filter: invert(26%) sepia(90%) saturate(1270%) hue-rotate(185deg) brightness(93%) contrast(106%);
 }
@@ -39,14 +43,16 @@ header img#logo:hover {
 
 nav ul{
     display: inline-flex;
+    margin: 0 5px;
 }
 
 nav ul li a {
     font-size: 12px;
     font-weight: bold ;
-    margin: 2vw;
     color: #d96045;
     transition: 0.3s;
+    display: inline-flex;
+    padding: 5px 10px;
 }
 
 @media (min-width: 500px) {nav ul li a {
@@ -61,6 +67,10 @@ nav ul li a:hover {
     transition: 0.3s;
     border-bottom: 3px solid  #025dac;
     margin-bottom: -3px;
+}
+
+nav ul li a i{
+    margin-right: 5px;
 }
 
 main {
@@ -118,7 +128,7 @@ article section {
 
 .card .content {
     padding: 5px;
-    font-size: smaller;
+    font-size: 13px;
     font-weight: bold;
     color: #fff;
 }
@@ -180,4 +190,5 @@ form{
 form label{
     align-items: center;
     margin: 10px;
+    font-weight: bold;
 }
