@@ -202,11 +202,10 @@ form label{
     font-weight: bold;
 }
 
-@media (max-height: 450px) or (orientation: landscape) {
+@media (max-height: 600px) and (orientation: landscape) {
     header#top{height: 30px;}
     main {margin-top: 30px;}
     .card {max-width: 250px;}
     article header {font-size: small;}
     .card .content{font-size: 10px;}
-    *{transition: 1s}
 }
