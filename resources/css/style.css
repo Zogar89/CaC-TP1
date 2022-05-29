@@ -71,7 +71,7 @@ article#catalogo {
 }
 
 #catalogo section{
-    background-color: black;
+
     display: flex;
     padding: 10px;
 }
@@ -83,7 +83,6 @@ article header {
 }
 
 article section {
-    background-color:green; /*Para identificar secciones*/
     padding: 0.1em;
     display: flex;
     flex-wrap: wrap;
@@ -91,7 +90,7 @@ article section {
 }
 
 .card {
-    background-color: blue;
+    background-color: gainsboro;
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -105,12 +104,11 @@ article section {
 }
 
 .image {
-    background-color:aqua;
+
     width: 100%;
 }
 
 .image img{
-    background-color: #ffe600;
     aspect-ratio: 1/1;
     object-fit:cover;
     max-width:100%;
@@ -130,6 +128,7 @@ form{
 	align-items: center;
 	flex-direction: column;
 	margin: 10px;
+    flex-grow: 1;
 }
 
 #consulta{
@@ -147,4 +146,6 @@ form{
 #btnEnviar{
 	width: 20%;
 	border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
 }
