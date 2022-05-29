@@ -6,6 +6,7 @@
 body{
     font-family: 'Roboto', sans-serif ;
     scroll-behavior: smooth;
+    min-width: 350px;
 }
 
 header#top{
@@ -95,8 +96,8 @@ article section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 10px 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 5px 2px;
 }
 
 .card .content {
